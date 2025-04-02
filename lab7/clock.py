@@ -30,8 +30,8 @@ while running:
     cur_time = time.localtime()
     minutes = cur_time.tm_min
     seconds = cur_time.tm_sec
-    angle_min =  -(minutes * 6) + 300
-    angle_sec =  - (seconds * 6) + 60
+    angle_min =  -(minutes * 6) + 306
+    angle_sec =  - (seconds * 6) + 54
 
 
     rotated_right = pygame.transform.rotate(right_hand, angle_min)
